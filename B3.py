@@ -2,7 +2,7 @@ name_patient = input("Nhập tên bệnh nhân:")
 age_patient = int(input("Nhập tuổi bệnh nhân:"))
 
 
-if age_patient > 120:
+if age_patient > 150:
     print("Tuổi không hợp lệ!!")
 elif age_patient >= 80:
     print("ƯU TIÊN: Người cao tuổi - Hỗ trợ xe lăn, chuyển phòng khám Lão khoa.")
